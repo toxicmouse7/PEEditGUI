@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DataDirectoryEditor</class>
+ <widget class="QWidget" name="DataDirectoryEditor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DataDirectoryEditor</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>160</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="l0">
+      <item>
+       <widget class="QLineEdit" name="size0"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va0"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l1">
+      <item>
+       <widget class="QLineEdit" name="size1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va1"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l2">
+      <item>
+       <widget class="QLineEdit" name="size2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va2"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l3">
+      <item>
+       <widget class="QLineEdit" name="size3"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va3"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l4">
+      <item>
+       <widget class="QLineEdit" name="size4"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va4"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l5">
+      <item>
+       <widget class="QLineEdit" name="size5"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va5"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l6">
+      <item>
+       <widget class="QLineEdit" name="size6"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va6"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l7">
+      <item>
+       <widget class="QLineEdit" name="size7"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va7"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l8">
+      <item>
+       <widget class="QLineEdit" name="size8"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va8"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l9">
+      <item>
+       <widget class="QLineEdit" name="size9"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va9"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l10">
+      <item>
+       <widget class="QLineEdit" name="size10"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va10"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l11">
+      <item>
+       <widget class="QLineEdit" name="size11"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va11"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l12">
+      <item>
+       <widget class="QLineEdit" name="size12"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va12"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l13">
+      <item>
+       <widget class="QLineEdit" name="size13"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va13"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l14">
+      <item>
+       <widget class="QLineEdit" name="size14"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va14"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="l15">
+      <item>
+       <widget class="QLineEdit" name="size15"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="va15"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="size">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Size</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="va">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Virtual address</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>290</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
