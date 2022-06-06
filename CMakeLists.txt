@@ -12,7 +12,7 @@ find_package(Qt6 REQUIRED COMPONENTS
         Gui
         Widgets)
 
-add_executable(PEEditGUI main.cpp MainWindow.cpp MainWindow.hpp MainWindow.ui PortableExecutableInfo.hpp NTEditor.cpp NTEditor.hpp NTEditor.ui DataDirectoryEditor.cpp DataDirectoryEditor.hpp DataDirectoryEditor.ui SectionTableEditor.cpp SectionTableEditor.hpp SectionTableEditor.ui SectionEditor.cpp SectionEditor.hpp SectionEditor.ui IndexButton.hpp Convert.hpp)
+add_executable(PEEditGUI WIN32 main.cpp MainWindow.cpp MainWindow.hpp MainWindow.ui PortableExecutableInfo.hpp NTEditor.cpp NTEditor.hpp NTEditor.ui DataDirectoryEditor.cpp DataDirectoryEditor.hpp DataDirectoryEditor.ui SectionTableEditor.cpp SectionTableEditor.hpp SectionTableEditor.ui SectionEditor.cpp SectionEditor.hpp SectionEditor.ui IndexButton.hpp Convert.hpp)
 target_link_libraries(PEEditGUI PUBLIC
         Qt::Core
         Qt::Gui

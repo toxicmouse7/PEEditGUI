@@ -35,7 +35,7 @@ MainWindow::~MainWindow()
 void MainWindow::getPEFileName()
 {
     filename = QFileDialog::getOpenFileName(this, tr("Open PE"),
-                                                 "C:\\", tr("PE (*.exe)"));
+                                                 "C:\\", tr("PE (*.exe *.dll)"));
 
     if (!filename.isEmpty()) emit fileNameReady();
 }
@@ -54,7 +54,7 @@ void MainWindow::analyzePE()
         return;
     }
 
-    if (arch == x64 || arch == undefined)
+    if (arch != x86)
     {
         QMessageBox::warning(this, tr("Warning"), tr("PE32+ is not supported"));
         return;
